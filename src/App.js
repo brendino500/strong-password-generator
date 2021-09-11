@@ -1,5 +1,13 @@
+import DropdownMenu from '../src/components/DropdownMenu'
+import SwitchButton from '../src/components/SwitchButton'
+
 function App() {
-  return <h1>Hello Archie</h1>
+  return (
+    <>
+      <DropdownMenu />
+      <SwitchButton />
+    </>
+  )
 }
 
 export default App
